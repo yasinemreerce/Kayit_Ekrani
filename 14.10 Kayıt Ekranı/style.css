@@ -1,0 +1,72 @@
+* {
+    text-align: center;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(background_image.png);
+    background-size: cover;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.sayfa-giris {
+    border: 1px solid white;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 30%;
+    left: 35%;
+   
+    height: 330px;
+    width: 400px;
+
+    background-color: white;
+}
+
+.isim ,.sifre {
+    font-family:'Courier New', Courier, monospace ;
+    padding-right: 10px;
+    position: relative;
+    
+}
+
+.kullanici-isim  {    
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kullanici-sifre  {    
+    margin-top: 10px;
+    color: black;
+    
+}
+
+h1 {
+    color: red;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    transition-duration: 0.8s;
+    margin-top: 90px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.giris-secenegi {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
